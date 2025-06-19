@@ -4,10 +4,12 @@ import Header from "./assets/components/Header";
 import Hero from "./assets/components/Hero";
 
 
+
 function App() {
   return (
     <div className="relative overflow-hidden">
       <VideoBackground />
+    
       <Header />
       <Hero />
     </div>
