@@ -1,17 +1,12 @@
 import React from "react";
-import VideoBackground from "./assets/components/VideoBackground";
 import Header from "./assets/components/Header";
-import Hero from "./assets/components/Hero";
-
-
+import VideoBackground from "./assets/components/VideoBackground"; // acesta e corect acum
 
 function App() {
   return (
     <div className="relative overflow-hidden">
-      <VideoBackground />
-    
       <Header />
-      <Hero />
+      <VideoBackground />
     </div>
   );
 }
