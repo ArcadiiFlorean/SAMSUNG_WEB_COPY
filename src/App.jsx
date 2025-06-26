@@ -13,6 +13,7 @@ import TVAV from "./pages/TVAV";
 import Computers from "./pages/Computers";
 import Wearables from "./pages/Wearables";
 import Accessories from "./pages/Accessories";
+import Footer from "./assets/components/Footer";
 
 const products = [
   {
@@ -67,6 +68,7 @@ function App() {
           </Routes>
         </main>
       </div>
+      <Footer />
     </Router>
   );
 }
