@@ -21,7 +21,7 @@ const footerSections = [
 
 function Footer() {
   return (
-    <footer className="bg-gray-100 py-10">
+    <footer className="bg-gray-200 py-10">
       <div className="container mx-auto px-4 flex flex-wrap justify-around gap-8 divide-x divide-gray-300">
         {footerSections.map((section, index) => (
           <div key={index} className="flex flex-col gap-2 px-4 min-w-[150px]">
